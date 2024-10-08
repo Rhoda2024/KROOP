@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Heebo", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.89);
+}
+
+/* ============nav======== */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1856px;
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+
+.nav-links1 ul {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.nav-links1 ul li a,
+.nav .buttons button {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 1.2px;
+    border: none;
+}
+
+.buttons {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+nav .buttons .btn1 {
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    border: none;
+    transition: all 1s ease-in-out;
+}
+
+nav .buttons .btn1:hover {
+    transition: all 0.5s ease-in-out;
+    background-color: black;
+    color: white;
+}
+
+nav .buttons .btn2 {
+    border: none;
+    background-color: transparent;
+}
+
+/* ============end of nav ======== */
+
+/* =============hero-section======= */
+.hero-section {
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 5rem 0 3rem 0;
+}
+
+.crossfit-arrowsection {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-end;
+    padding-top: 5rem;
+}
+
+.hero-section .crossfit-arrowsection .arrow-text {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+    color: white;
+}
+
+.crossfit {
+    font-size: 360px;
+    font-weight: 700;
+    color: white;
+}
+
+.dot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.dots {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.dots3 {
+    border: 5px solid white;
+}
+
+/* ============= end of hero-section======= */
+
+/* ============= main1======= */
+main {
+    background-color: black;
+}
+
+.main1 {
+    max-width: 1300px;
+    height: 638px;
+    margin: 0 auto;
+}
+
+h1 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(64, 64, 64, 1);
+    font-family: "Yantramanav", serif;
+    font-size: 120px;
+    font-weight: 700;
+    position: absolute;
+    top: 7rem;
+    left: -3rem;
+}
+
+.main1-text-pics {
+    display: flex;
+    position: relative;
+}
+
+.flex1 {
+    display: flex;
+    padding-top: 11rem;
+    position: relative;
+    z-index: 1;
+}
+
+.main1-text {
+    width: 40%;
+}
+
+.flex1 div p {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    color: white;
+}
+
+.unum p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.8px;
+    color: rgba(196, 196, 196, 1);
+    padding: 1.2rem 0;
+}
+
+.main1-pics {
+    position: absolute;
+    top: -59px;
+    left: 723px;
+}
+
+.main-btns {
+    font-family: "Heebo", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 1.2px;
+    text-align: left;
+}
+
+.main-btns button {
+    padding: 0 0 0 2.5rem;
+    border: 1px solid white;
+    border-radius: 4rem;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.main-btns button a {
+    padding: 1rem 1rem;
+    border: 1px solid white;
+    border-radius: 4rem;
+}
+
+/* ============= end of main 1======= */
